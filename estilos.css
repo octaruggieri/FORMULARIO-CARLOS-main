@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* { 
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  .note {
+    font-size: 26px;
+    color: #807f7f;
+    padding: 60px;
+  }
+
+  .hora-regular {
+    margin-left: -220px;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .opcion{
+    font-weight: 600;
+    margin-top: -30px;
+  }
+
+
+  .form-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+
+.sin-id{
+  width: 28%;
+  align-items: center;
+  margin: 0 auto;
+  background-color:  #85b2cf;
+}
+
+/* Estilo para las etiquetas de los campos */
+.form-line label {
+    flex: 0; /* Ocupa todo el espacio disponible */
+    font-weight: bold;
+    text-align: start;
+    
+}
+
+/* Estilo para los campos de entrada de texto */
+.form-line input[type="text"] {
+    flex: 2; /* Ocupa más espacio que los radio buttons */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para los radio buttons y sus etiquetas */
+.form-line input[type="radio"] {
+    margin-right: 5px; /* Espacio entre los radio buttons */
+}
+
+.form-line label[for^="cat"] {
+/*    margin-left: 100px; /* Espacio entre las etiquetas de los radio buttons */
+/*    margin-top: -30px;*/
+   
+}
+
+.form-line input[type="radio"] {
+/*  margin-right: 100px; /* Espacio entre los radio buttons */
+  margin-top: -5px;
+  margin-bottom: 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #cac7c7;
+  line-height: 1.6;
+  padding: 0 1.5em;
+ 
+}
+/* ====================== FIELDSET ==================== */
+fieldset {
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  
+}
+
+#fieldset_1{
+  background-color: rgb(109, 197, 238);
+}
+
+#fieldset_2{
+  background-color: #e28080;
+}
+
+#fieldset_3{
+  background-color: #e76969;
+}
+
+#fieldset_4{
+  background-color: #d65a5a;
+}
+
+#fieldset_5{
+  background-color: #2980b9;
+ 
+}
+
+#fieldset_9{
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color:  #85b2cf;
+}
+
+#fieldset_10{
+  width: 45%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.685);
+}
+
+#fieldset_11{
+  background-color: #92c5a9;
+  width: 28%;
+  margin: 0 auto;
+}
+
+#fieldset_12{
+  background-color: #92c5a9;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+#fieldset_13{
+  background-color: #92c5a9;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+#fieldset_14{
+  background-color: #178f8f;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+#fieldset_20{
+  background-color: #70b681;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+#fieldset_27{
+  background-color: #8fc4bd;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+#fieldset_29{
+  background-color: #096fb3;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+#fieldset_34{
+  background-color: #ebae3f;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+#fieldset_52{
+  background-color: #ccdd98;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+#fieldset_74{
+  background-color: #c7b5a3;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+#fieldset_76{
+  background-color: #958ab4;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 20px 
+}
+
+
+
+
+
+/* ================== TITLES ======================= */
+.titles-sections{
+  padding-top: 30px;
+  font-size: 23px;
+  color: #000000;
+}
+
+.titles-sections-equipment{
+  font-size: 23px;
+  color: #000000;
+}
+
+.equipamientos-titulos{
+  color: #000000;
+  font-size: 19px;
+}
+
+.equipamientos-titulos-2{
+  color: #000000;
+  font-size: 22px;
+}
+
+.ejemplos{
+  color: #ccc;
+  font-size: 10px;
+  text-align: justify;
+}
+
+.titles-sections-1{
+  font-size: 23px;
+  color: #000000;
+}
+
+.opciones{
+  font-size: 12px;
+}
+
+.opciones-1{
+  font-size: 12px;
+}
+
+.titulos-footer{
+  color: #000000;
+  font-size: 30px;
+}
+
+
+/* =================== SPANS ====================== */
+.ejemplos span{
+  color: #000000;
+}
+
+.checkOne{
+  font-size: 13px;
+  
+}
+
+.form-line span{
+  color: #000000;
+}
+
+
+/* ================================== INPUTS ====================== */
+input[type="radio"]:checked + label {
+  font-weight: bold;
+  color: #000000;
+}
+
+.subtitles-room{
+  margin-right: 70%;
+  color: #ffffff;
+  font-weight: 600;
+  
+}
+
+.subtitles{
+  color: #17298f;
+  font-weight: 600;
+}
+
+.form-line input{
+  
+  
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.form-line input:focus{
+  outline: none;
+  border-color: #3498db;
+
+}
+
+
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 13px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  background-color: #ecf0f1;
+  color: #555;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #2980b9;
+}
+
+/* Estilos para las opciones */
+select option {
+  background-color: #ecf0f1;
+  color: #555;
+}
+
+/* Estilos para la opción seleccionada */
+select option:checked {
+  background-color: #3498db;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+ input[type="radio"] {
+      margin-right: 5px;
+      appearance: none;
+      position: sticky;
+      height: 20px;
+      width: 20px;
+      border: 2px solid #3498db;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    input[type="radio"]:checked {
+      background-color: #3498db;
+      border-color: #3498db;
+    }
+
+
+
+
+
+
+
+
+
+
+/* ================= responsive =================== */
+@media screen and (max-width:1200px){
+  .sin-id{
+    width: 51%;
+  }
+}
+
+@media screen and (max-width:769px){
+  #body{
+    margin: 0 auto;
+    align-items: center;
+    margin-right: -60px;
+  }
+
+  #fieldset_1{
+    width: 90%;
+    margin: 0;
+   }
+ 
+
+  #fieldset_2{
+    width: 90%;
+    margin: 0;
+   }
+ 
+
+  #fieldset_3{
+    width: 90%;
+    margin: 0;
+   }
+ 
+
+  #fieldset_4{
+   width: 90%;
+   margin: 0;
+  }
+
+  #fieldset_5{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 87%;
+    margin-left: -17px;
+  }
+
+  .sin-id{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  #fieldset_9{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  #fieldset_10{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  #fieldset_11{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  
+  #fieldset_12{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  #fieldset_13{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  #fieldset_14{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  #fieldset_20{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  #fieldset_27{
+    padding-top: 10px;
+    margin-top: 40px;
+    min-width: 90%;
+  }
+
+  #fieldset_29{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  #fieldset_34{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  #fieldset_52{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+ 
+  }
+
+  #fieldset_74{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+ 
+  }
+
+  #fieldset_76{
+    padding-top: 10px;
+    margin-top: 40px;
+    width: 90%;
+
+  }
+
+
+  .titulos-footer{
+    font-size: 25px;
+  }
+}
+  
+
+
+
+
+.btn-enviar{
+  padding-top: 10px;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+}
